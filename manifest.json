@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "WOL Adjustments Suite",
+  "version": "1.0",
+  "description": "Adds audio playback speed control UI for Watchtower Online Library, and auto-expands collapsible reference material.",
+  "permissions": [
+    "storage",
+    "*://wol.jw.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://wol.jw.org/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ],
+      "css": [
+        "speedcontrol.css"
+      ]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{9adb2b29-41d6-4b58-9f2b-c6230cc23275}"
+    }
+  }
+}

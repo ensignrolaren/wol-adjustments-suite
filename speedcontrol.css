@@ -1,0 +1,10 @@
+#speedControlContainer {
+	box-shadow: 0 0 50px rgba(0,0,0,.2);
+	background-color: transparent;
+}
+
+#speedControlContainer select {
+	font-family: 'NotoSans', sans-serif;
+	font-size: 1rem;
+	padding: 5px;
+}
